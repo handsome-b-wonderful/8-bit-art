@@ -17,7 +17,6 @@ A demo is located [here](https://8-bit-art.s3-us-west-2.amazonaws.com/index.html
 * Client-side image selection and cropping
 * Pixelation using top-left pixel in group or averaging
 * Color mapping using shortest distance
-* Generates map, queue sheets and supply list
 
 
 ### Road Map ###
@@ -29,6 +28,12 @@ A demo is located [here](https://8-bit-art.s3-us-west-2.amazonaws.com/index.html
 * Enhancements: better sampling on pixelation and color mapping
 * Integrate with available [sticky paper] colors and sizes
 
+
+### Current Issues/Bugs ###
+
+* Image caching by the browser if you select a subsequent image with the same name 
+* Processing larger images takes a while; looks like the app is frozen
+* TODO: Generate map, queue sheets and supply list
 
 
 This content is released under the (http://opensource.org/licenses/MIT) MIT License.
