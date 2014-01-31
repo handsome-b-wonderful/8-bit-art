@@ -1,4 +1,34 @@
 8-bit-art
 =========
+[<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/8bit_examples.jpg">]
 
-Generate pixelated and colorized image maps that you can construct with [small squares of sticky paper]
+#### Introduction ####
+8-Bit Art generates pixelated and colorized image maps that you can construct with [small squares of sticky paper]
+
+
+### Demo ###
+
+A demo is located [here](https://8-bit-art.s3-us-west-2.amazonaws.com/index.html).
+
+
+### Current features ###
+
+* Client-side image selection and cropping
+* 
+* 
+
+
+### Road Map ###
+
+* UI enhancements - styling, input validation, in-browser palette manipulation
+* Package up output in a single file, nice print facilities
+* Save/Share creations
+* Add Features: preserve aspect ratio on crop/sizing, mirror image output (for window constructions)
+* Enhancements: better sampling on pixelation and color mapping
+* Integrate with available [sticky paper] colors and sizes
+
+
+
+
+
+This content is released under the (http://opensource.org/licenses/MIT) MIT License.
