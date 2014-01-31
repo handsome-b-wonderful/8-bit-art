@@ -1,0 +1,20 @@
+
+.palette-color {
+    -moz-border-radius: 75px/75px;
+    -webkit-border-radius: 75px 75px;
+    border-radius: 75px/75px;;
+    border:solid 12px #000; 
+    width:75px;
+    height:25px;
+	line-height:3em;
+	text-align: center;
+	color: #000;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:12px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:10px;
+}
+
+
+

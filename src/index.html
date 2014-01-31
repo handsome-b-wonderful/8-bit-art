@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>8-Bit Art</title>
+	<meta name="description" content="8-Bit Art - Pixelated and Colorized image maps">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/8bitart.css">
+	<link rel="stylesheet" type="text/css" href="css/imgareaselect-default.css" />
+</head>
+<body>
+	<h1>8-Bit Art</h1>
+	<p>8-Bit Art generates pixelated and colorized image maps that you can construct with [small squares of sticky paper]. <a href="http://www.post-it.com/">3M Post-it&reg;</a></p>
+	<p>Released under the <a href="http://opensource.org/licenses/MIT">MIT License</a>. Source located <a href="https://github.com/handsome-b-wonderful/8-bit-art">here</a>.</p>
+	<p>Requires a modern browser (built on Chrome; tested on nothing)</p>
+	
+	<h2>Palette</h2>
+	<div id="palette">
+	</div>
+	
+	<h2>Pick your Image</h2>
+	<form id="form1">
+		<input type='file' id="imgInp" />
+	</form>
+		
+	<div id="cropper" style="display:none;">
+		<h2>Crop your Image</h2>
+		X: <span id="x">--</span>&nbsp;&nbsp;&nbsp;
+		Y: <span id="y">--</span>&nbsp;&nbsp;&nbsp;
+		W: <span id="width">--</span>&nbsp;&nbsp;&nbsp;
+		H: <span id="height">--</span>&nbsp;&nbsp;&nbsp;
+		<br />
+		<img id="photo" src="#" alt="your image" title="your image" />
+	</div>
+	
+	<div id="pixelate" style="display:none;">
+		<h2>Pixelate and Color Mapping</h2>
+		Pixel Color Sampling:
+		&nbsp;<input type="radio" name="sample_type" value="first" checked /> First
+		&nbsp;&nbsp;&nbsp;<input type="radio" name="sample_type" value="average" /> Average
+		<br />
+		Target Width: <input type="text" id="target_width" value="64" size="3" /><br />
+		Target Height: <input type="text" id="target_height" value="64" size="3" /><br />
+		Magnify: X<input type="text" id="target_magnify" value="8" size="3" /><br />
+		<br />
+		<input type="button" id="pixelization" value="Pixelate!" />
+	</div>
+	
+	
+	<div id="mapper" style="display:none;">
+		<h2>Cropped Image</h2>
+		<canvas id="pre_pixel" width="1" height="1"></canvas>
+		<h2>Pixelated and Color-mapped</h2>
+		<br />
+		<canvas id="post_pixel" width="1" height="1"></canvas>
+		<br />
+		# of [sticky paper squares] per pixel (X * Y): <input type="text" id="target_magnify" value="4" size="3" /><br />
+
+		<input type="button" id="buildit" value="Build It!" />
+	</div>
+
+	<br />
+	
+	<div id="buildsheets" style="display:none;">
+		<h2>Build Sheets</h2>
+		//TODO
+		
+		<p>Output in here</p>
+	</div>
+	
+	<br />
+	
+	
+	<script type="text/javascript" src="lib/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.imgareaselect.pack.js"></script>
+	<script type="text/javascript" src="js/8bitart.js"></script>
+	<script type="text/javascript">
+
+	</script>
+</body>
+</html>
