@@ -1,6 +1,6 @@
 8 Bit Art
 =========
-[<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/8bit_examples.jpg">]
+<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/8bit_examples.jpg">
 
 #### Introduction ####
 8-Bit Art generates pixelated and colorized image maps that you can construct with [small squares of sticky paper].
@@ -11,7 +11,7 @@
 
 A demo is located [here](https://8-bit-art.s3-us-west-2.amazonaws.com/index.html).
 
-[<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/screenshot.jpg">]
+<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/screenshot.jpg">
 
 
 ### Current features ###
