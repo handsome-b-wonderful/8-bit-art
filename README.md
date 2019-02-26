@@ -9,7 +9,7 @@
 
 ### Demo ###
 
-A demo is located [here](https://8-bit-art.s3-us-west-2.amazonaws.com/index.html).
+A demo is located [here](https://8-bit-art-v2.s3-us-west-2.amazonaws.com/index.html).
 
 <img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/screenshot.jpg">
 
