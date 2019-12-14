@@ -1,6 +1,6 @@
 8 Bit Art
 =========
-<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/8bit_examples.jpg">
+![8bit examples](8bit_examples.jpg)
 
 #### Introduction ####
 8-Bit Art generates pixelated and colorized image maps that you can construct with "small squares of sticky paper".
@@ -11,8 +11,7 @@
 
 A demo is located [here](https://8-bit-art-v2.s3-us-west-2.amazonaws.com/index.html).
 
-<img src="https://8-bit-art.s3-us-west-2.amazonaws.com/img/screenshot.jpg">
-
+![sample screenshot](screenshot.jpg)
 
 ### Current features ###
 
@@ -35,7 +34,5 @@ A demo is located [here](https://8-bit-art-v2.s3-us-west-2.amazonaws.com/index.h
 
 * Image caching by the browser if you select a subsequent image with the same name 
 * Processing larger images takes a while; looks like the app is frozen
-* TODO: Generate map, queue sheets and supply list
+* Incomplete implementation __TODO:__ Generate map, queue sheets and supply list
 
-
-This content is released under the (http://opensource.org/licenses/MIT) MIT License.
